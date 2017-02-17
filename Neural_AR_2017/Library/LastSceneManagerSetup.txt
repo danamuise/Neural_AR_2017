@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SamplesScenes/Vuforia-3-ImageTargets 1.unity
+- path: Assets/Scenes/Scene01.unity
   isLoaded: 1
   isActive: 1
