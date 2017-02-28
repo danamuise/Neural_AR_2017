@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6428EB99-78D4-AA4A-B0F5-FC1D34794786}</ProjectGuid>
+    <ProjectGuid>{252C89FD-7369-FEAD-D5C3-792DED709B2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ButtonPopup.cs" />
      <Compile Include="Assets\Common\CameraSettings.cs" />
      <Compile Include="Assets\Common\InitErrorHandler.cs" />
      <Compile Include="Assets\Common\MenuAnimator.cs" />
@@ -85,6 +84,9 @@
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesMainMenu.cs" />
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesNavigationHandler.cs" />
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Scripts\SamplesTapHandler.cs" />
+     <Compile Include="Assets\Scripts\ButtonPopup.cs" />
+     <Compile Include="Assets\Scripts\DrawLine.cs" />
+     <Compile Include="Assets\Scripts\tintObject.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -126,12 +128,12 @@
      <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
-     <Compile Include="Assets\tintObject.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\StreamingAssets\QCAR\sodacan.xml" />
      <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
      <None Include="Assets\StreamingAssets\QCAR\neuralstudio_Test.xml" />
-     <None Include="Assets\link.xml" />
+     <None Include="Assets\ReadMe\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
@@ -142,14 +144,14 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\QCAR\FlakesBox.xml" />
      <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
-     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\ReadMe\license_3rdpartynotice.txt" />
      <None Include="Assets\SamplesResources\ObjectReco\Shaders\ObjectReco_Custom_Outline.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\SamplesResources\VuMark\Shaders\VuMark_Custom_OverlayMesh.shader" />
-     <None Include="Assets\BuildingShed\BuildingShedInfo.txt" />
+     <None Include="Assets\Models\BuildingShed\BuildingShedInfo.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\ReadMe\readme_SDK.txt" />
      <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
@@ -171,7 +173,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/danam/Documents/TestProjects/ARenvironmentTest/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/danam/Documents/Github_Repositories/Neural_AR_2017/Neural_AR_2017/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

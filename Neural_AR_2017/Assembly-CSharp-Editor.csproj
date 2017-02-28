@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB54A5E2-04E1-E69E-DB65-858766AEA026}</ProjectGuid>
+    <ProjectGuid>{8BFDDA54-0036-93AA-2FF8-430132A40BB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,10 +56,11 @@
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\Unzipper\SharpZipLibUnzipper.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\StreamingAssets\QCAR\sodacan.xml" />
      <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
      <None Include="Assets\StreamingAssets\QCAR\neuralstudio_Test.xml" />
-     <None Include="Assets\link.xml" />
+     <None Include="Assets\ReadMe\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
@@ -70,14 +71,14 @@
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\QCAR\FlakesBox.xml" />
      <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
-     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\ReadMe\license_3rdpartynotice.txt" />
      <None Include="Assets\SamplesResources\ObjectReco\Shaders\ObjectReco_Custom_Outline.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\SamplesResources\VuMark\Shaders\VuMark_Custom_OverlayMesh.shader" />
-     <None Include="Assets\BuildingShed\BuildingShedInfo.txt" />
+     <None Include="Assets\Models\BuildingShed\BuildingShedInfo.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\ReadMe\readme_SDK.txt" />
      <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.Advertisements">
@@ -129,10 +130,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>C:/Users/danam/Documents/TestProjects/ARenvironmentTest/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>C:/Users/danam/Documents/Github_Repositories/Neural_AR_2017/Neural_AR_2017/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/danam/Documents/TestProjects/ARenvironmentTest/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/danam/Documents/Github_Repositories/Neural_AR_2017/Neural_AR_2017/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -158,9 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6428EB99-78D4-AA4A-B0F5-FC1D34794786}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{252C89FD-7369-FEAD-D5C3-792DED709B2F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-Editor-firstpass.unityproj">
-      <Project>{8F8F5756-E50E-34B7-0655-EF0ECB5F02AB}</Project>      <Name>Assembly-UnityScript-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{7F6C4E9D-4603-63DF-1C29-E8B7A497E1B2}</Project>      <Name>Assembly-UnityScript-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
