@@ -68,6 +68,12 @@ namespace Vuforia
 
         private void OnTrackingFound()
         {
+			//enable all canvas child objects
+			Canvas[]canvasComponents = GetComponentsInChildren<Canvas>(true);
+			foreach (Canvas component in canvasComponents) {
+				component.enabled = true;
+			}
+
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
@@ -89,6 +95,12 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
+			//disable all canvas child objects
+			Canvas[]canvasComponents = GetComponentsInChildren<Canvas>(true);
+			foreach (Canvas component in canvasComponents) {
+				component.enabled = false;
+			}
+
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
