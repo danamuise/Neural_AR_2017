@@ -22,7 +22,7 @@ public class DrawLine : MonoBehaviour {
 	void Update ()
 	{
 		//Rotate this object to face camera
-		transform.rotation = Camera.main.transform.rotation;
+		//transform.rotation = Camera.main.transform.rotation;
 
 		//draw line
 		lineRenderer.SetPosition(0, origin.position);
