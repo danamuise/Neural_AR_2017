@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural_AR_2017", "Assembly-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural_AR_2017", "Assembly-CSharp-Editor.csproj", "{8BFDDA54-0036-93AA-2FF8-430132A40BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural_AR_2017", "Assembly-UnityScript.unityproj", "{B51F6017-9BD1-907B-BC8D-7694E8A65D2E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural_AR_2017", "Assembly-UnityScript-Editor-firstpass.unityproj", "{7F6C4E9D-4603-63DF-1C29-E8B7A497E1B2}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{8BFDDA54-0036-93AA-2FF8-430132A40BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFDDA54-0036-93AA-2FF8-430132A40BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFDDA54-0036-93AA-2FF8-430132A40BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51F6017-9BD1-907B-BC8D-7694E8A65D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51F6017-9BD1-907B-BC8D-7694E8A65D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51F6017-9BD1-907B-BC8D-7694E8A65D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51F6017-9BD1-907B-BC8D-7694E8A65D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F6C4E9D-4603-63DF-1C29-E8B7A497E1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F6C4E9D-4603-63DF-1C29-E8B7A497E1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6C4E9D-4603-63DF-1C29-E8B7A497E1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
