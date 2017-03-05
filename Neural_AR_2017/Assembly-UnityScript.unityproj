@@ -61,6 +61,7 @@
      <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
      <None Include="Assets\StreamingAssets\QCAR\FlakesBox.xml" />
      <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />

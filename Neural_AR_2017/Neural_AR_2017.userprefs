@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scene PreLoader\Scripts\ScenePreLoader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraLookat.cs">
     <Files>
       <File FileName="Assets\Scripts\DrawLine.cs" Line="1" Column="1" />
       <File FileName="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" Line="1" Column="1" />
@@ -8,7 +8,7 @@
       <File FileName="Assets\Scripts\smooth_movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Target.cs" Line="1" Column="1" />
       <File FileName="Assets\Fit All Screen Size\ReadMe.txt" Line="1" Column="1" />
-      <File FileName="Assets\Scene PreLoader\Scripts\ScenePreLoader.cs" Line="23" Column="1" />
+      <File FileName="Assets\Scripts\CameraLookat.cs" Line="15" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -51,6 +51,9 @@
      <Compile Include="Assets\SamplesResources\UserDefinedTargets\Editor\UDTEventHandlerEditor.cs" />
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Editor\SamplesConfigUIEditor.cs" />
      <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Editor\VuforiaLicense.cs" />
+     <Compile Include="Assets\SplineParticles\Code\Editor\SplineParticlesCustomInspector.cs" />
+     <Compile Include="Assets\SplineParticles\SplineEditor\Editor\BezierSplineEditor.cs" />
+     <Compile Include="Assets\SplineParticles\SplineEditor\Editor\ToolsUtil.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -69,6 +72,7 @@
      <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\SkySphere_V1\Documentation\How to use.txt" />
      <None Include="Assets\StreamingAssets\QCAR\FlakesBox.xml" />
      <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
