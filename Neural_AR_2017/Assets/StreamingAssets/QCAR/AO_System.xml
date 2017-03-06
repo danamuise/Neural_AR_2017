@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="PrecMetalExtraction" size="1.000000 0.241517" />
+    <ImageTarget name="SludgeToFuel" size="1.000000 0.247689" />
     <ImageTarget name="QR_02" size="1.000000 0.207872" />
     <ImageTarget name="QR_01" size="1.000000 0.207872" />
     <ImageTarget name="QR-CODE_2_smaller" size="1.000000 1.000000" />
