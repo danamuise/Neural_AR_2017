@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class DrawLine : MonoBehaviour {
-
+	/*
 
 	private LineRenderer lineRenderer;
 	public Transform origin;
@@ -28,4 +28,5 @@ public class DrawLine : MonoBehaviour {
 		lineRenderer.SetPosition(0, origin.position);
 		lineRenderer.SetPosition(1, destination.position);
 	}
+	*/
 }

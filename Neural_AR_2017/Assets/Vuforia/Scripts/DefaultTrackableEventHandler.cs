@@ -11,9 +11,15 @@ namespace Vuforia
     /// <summary>
     /// A custom handler that implements the ITrackableEventHandler interface.
     /// </summary>
+	/// 
+
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
+
+		public Canvas _canvas;
+		private CanvasGroup cg;
+
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
@@ -31,6 +37,8 @@ namespace Vuforia
             {
                 mTrackableBehaviour.RegisterTrackableEventHandler(this);
             }
+
+			//cg = _canvas.GetComponent<CanvasGroup> ();
         }
 
         #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -68,6 +76,9 @@ namespace Vuforia
 
         private void OnTrackingFound()
         {
+			//cg.interactable = false;
+			//cg.alpha = 0;
+
 			//enable all canvas child objects
 			Canvas[]canvasComponents = GetComponentsInChildren<Canvas>(true);
 			foreach (Canvas component in canvasComponents) {
@@ -95,6 +106,9 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
+			//cg.interactable = true;
+			//cg.alpha = 1;
+
 			//disable all canvas child objects
 			Canvas[]canvasComponents = GetComponentsInChildren<Canvas>(true);
 			foreach (Canvas component in canvasComponents) {
