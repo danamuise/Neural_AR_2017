@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 48f37912ddf63594ca5358595afdbaa0
+timeCreated: 1488954898
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackLight
+    100002: pCube1
+    100004: Plastik
+    100006: Scania400:BackLight
+    100008: Scania400:Body
+    100010: Scania400:Glass
+    100012: Scania400:Light
+    100014: Scania400:pCube1
+    100016: Scania400:pCube2
+    100018: Scania400:Plastik
+    100020: Scania400:Scania400:Tire
+    100022: Scania400:Tire9
+    100024: Scania400:UnderCar
+    100026: //RootNode
+    400000: BackLight
+    400002: pCube1
+    400004: Plastik
+    400006: Scania400:BackLight
+    400008: Scania400:Body
+    400010: Scania400:Glass
+    400012: Scania400:Light
+    400014: Scania400:pCube1
+    400016: Scania400:pCube2
+    400018: Scania400:Plastik
+    400020: Scania400:Scania400:Tire
+    400022: Scania400:Tire9
+    400024: Scania400:UnderCar
+    400026: //RootNode
+    2300000: BackLight
+    2300002: pCube1
+    2300004: Plastik
+    2300006: Scania400:BackLight
+    2300008: Scania400:Body
+    2300010: Scania400:Glass
+    2300012: Scania400:Light
+    2300014: Scania400:pCube1
+    2300016: Scania400:pCube2
+    2300018: Scania400:Plastik
+    2300020: Scania400:Scania400:Tire
+    2300022: Scania400:Tire9
+    2300024: Scania400:UnderCar
+    3300000: BackLight
+    3300002: pCube1
+    3300004: Plastik
+    3300006: Scania400:BackLight
+    3300008: Scania400:Body
+    3300010: Scania400:Glass
+    3300012: Scania400:Light
+    3300014: Scania400:pCube1
+    3300016: Scania400:pCube2
+    3300018: Scania400:Plastik
+    3300020: Scania400:Scania400:Tire
+    3300022: Scania400:Tire9
+    3300024: Scania400:UnderCar
+    4300000: Scania400:UnderCar
+    4300002: Scania400:Glass
+    4300004: Scania400:Plastik
+    4300006: Scania400:Body
+    4300008: Scania400:Light
+    4300010: Scania400:BackLight
+    4300012: pCube1
+    4300014: Plastik
+    4300016: BackLight
+    4300018: Scania400:Scania400:Tire
+    4300020: Scania400:Tire9
+    4300022: Scania400:pCube1
+    4300024: Scania400:pCube2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -88,7 +88,9 @@
      <Compile Include="Assets\Scripts\CameraLookat.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\DrawLine.cs" />
+     <Compile Include="Assets\Scripts\FrameDetect.cs" />
      <Compile Include="Assets\Scripts\Target.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\smooth_movement.cs" />
      <Compile Include="Assets\Scripts\tintObject.cs" />
      <Compile Include="Assets\SkySphere_V1\Examples\Gui.cs" />
