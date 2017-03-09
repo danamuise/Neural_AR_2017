@@ -53,10 +53,10 @@
      <None Include="Assets\StreamingAssets\QCAR\neuralstudio_Test.xml" />
      <None Include="Assets\ReadMe\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Fit All Screen Size\ReadMe.txt" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
-     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
