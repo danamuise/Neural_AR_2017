@@ -152,7 +152,6 @@
      <None Include="Assets\StreamingAssets\QCAR\neuralstudio_Test.xml" />
      <None Include="Assets\ReadMe\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
      <None Include="Assets\Fit All Screen Size\ReadMe.txt" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
@@ -175,6 +174,7 @@
      <None Include="Assets\ReadMe\readme_SDK.txt" />
      <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\AO_System.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
